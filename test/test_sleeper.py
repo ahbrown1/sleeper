@@ -30,6 +30,10 @@ class SleeperTest(unittest.TestCase):
         print 'in test2()'
         self.failUnlessEqual(self.fixture.wait(1), 0)
 
+    def test(self, mock_get):
+        print 'in test2()'
+        self.failUnlessEqual(0, 0)
+
 if __name__ == '__main__':
     unittest.main()
 
